@@ -14,11 +14,9 @@ body, html {
     box-sizing: border-box;
 }
 
-.bg-img {
-    background-image: url(/image.jpeg/gh-flag.jpeg);
 
-    min-height: 380px;
-    background-position: center;
+.bg-img {
+    background-position: right;
     background-repeat: no-repeat;
     background-size: initial;
     position: relative;
@@ -26,35 +24,65 @@ body, html {
 
 .container {
     position: absolute;
-    text-align: left;
-    color: black
+    text-align: right;
+    color: rebeccapurple;
 }
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+.card-body { 
+      text-align: initial;
+      position: absolute;
+      
+  }
+
+.btn {
+    background-color: #4caf50;
+    color: rgb(41, 24, 24);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+div {
+    background-color: burlywood;
+    padding-left: 0px;
+}
+
 .jumbotron {
     background-color: #e3eafa;
    padding: 0;
    margin:0%;
    border-radius: 0px;
-   float: right;
+   
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding-top: 0%;
+    
+}
+.column2 {
+    float: right;
+    width: 50%;
+    padding-top: 0px;
 }
 
 
-.column {
-    float: none;
-    padding-top: 5%;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-h2{
+h2 {
     font-style: italic;
     color: rgb(0, 217, 255);
 }   
  
-
-
-p{
+p {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     
