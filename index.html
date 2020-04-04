@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,57 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-UA-Compatible" content="ie=edge">
     <title>Akan Names</title>
-    <link rel="icon" href="images/1200px-Flag_of_Ghana.svg.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
 
-            <a href="index.html" class="btn-2">Home</a>
-            <h1>Akan Names</h1>
+            <h2>Akan Name Generator</h2>
 
-            <p>You just have to enter your birthday date and your gender.</p>
+             <p> The Akan people are a historically important ethnic group of <em>West Africa</em>. With over 20 million members the Akans
+                are one of the biggest Ethnic groups in West Africa today. <br>The Akan are the largest ethnic group in both Ghana and
+                the Ivory Coast. They speak <em>kwa </em>languages which are part of the larger Niger-Congo family.</p>
+                <p> The Akan Names are derived from ghanian culture, where children are given names based on the days of the week.</p>
+                <p>In West Africa, newborns are given <em> special names</em> depending on the day they are born. Diverse ethnicities 
+                    have variants and meanings as a symbol of cultural integrity and ancestral affiliation. </p>    
+            
+            <img src="image.jpeg/gh-flag.jpeg" alt="ghana-flag" style="width: 50%" height="750px"> 
             <div class="card">
                 <div class="card-body">
 
-                    <h2>Fill the form below</h2>
+                   <div>   
+                    <h2>Please put your details below</h2>
                     <div class="set">
-                        <label>Month</label><br />
-                        <input type="text" id="month" placeholder="Month in digits" required /><br /><br />
-                        <label>Day</label><br />
-                        <input type="text" id="day" placeholder="Day in digits" required /><br /><br />
-                        <label>Year</label><br />
-                        <input type="text" id="year" placeholder="Year in digits" required /><br /><br />
-                        <label>Gender</label><br />
-                        <input type="radio" name="gender" id="gender" value="male" checked /> Male
+                        <label>Century</label><br/>
+                        <input type="text" id="Century" placeholder="Century in digits" required/><br/><br/>
+                        <label>Year</label><br/>
+                        <input type="text" id="year" placeholder="Year in digits" required/><br/><br/>
+                        <label>Month</label><br/>
+                        <input type="text" id="month" placeholder="Month in digits" required /><br/><br/>
+                        <label>Day</label><br/>
+                        <input type="text" id="day" placeholder="Day in digits" required /><br /><br/>
+                        <label>Gender</label><br/>
+                        <input type="radio" name="gender" id="gender" value="male" checked/> Male
                         <br />
-                        <input type="radio" name="gender" id="gender" value="female" /> Female
+                        <input type="radio" name="gender" id="gender" value="female" checked/> Female
                         <br /><br />
-                        <input type="submit" class="btn-1" value="Submit" onclick="output()" />
+                        <input type="submit" class="btn-1" value="Submit" onclick="output()"/>
                         <div id="outcome"></div>
                     </div>
+            
                     <p id="display"></p>
-
+                   </div>
                 </div>
-
-
-                    <script src='js/index.js'></script>
-
-
-
                 </div>
-
-                </header>
-            </div>
+                    
         </div>
+              </div>
+            </div>
+            
+            
+            
+                
+                    
 
-    </div>
+
+            <script src="akan.js"></script>
+
+    
 </body>
-
-
-
-
 </html>
-                                           
+
+                       
