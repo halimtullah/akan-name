@@ -18,5 +18,6 @@ None so far!
 ## Support and contact details
 Incase of any query feel free to contact me via Email memon@gmail.com 
 
-### License <https://github.com/halimtullah/license/blob/master/LICENSE
+### License 
+<https://github.com/halimtullah/license/blob/master/LICENSE
 Copyright (c) {year} **Halima Isack**
